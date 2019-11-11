@@ -1,0 +1,7 @@
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects\04-list-of-objects-StudentManager\bin\Debug\04-list-of-objects-StudentManager.exe.config
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects\04-list-of-objects-StudentManager\bin\Debug\04-list-of-objects-StudentManager.exe
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects\04-list-of-objects-StudentManager\bin\Debug\04-list-of-objects-StudentManager.pdb
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects\04-list-of-objects-StudentManager\obj\Debug\04-list-of-objects-StudentManager.csprojAssemblyReference.cache
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects\04-list-of-objects-StudentManager\obj\Debug\04-list-of-objects-StudentManager.csproj.CoreCompileInputs.cache
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects\04-list-of-objects-StudentManager\obj\Debug\04-list-of-objects-StudentManager.exe
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects\04-list-of-objects-StudentManager\obj\Debug\04-list-of-objects-StudentManager.pdb
