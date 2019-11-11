@@ -19,13 +19,16 @@ namespace _04_list_of_objects_StudentManager
                 var newStudent = new Student();
 
                 Console.Write("Student Name (string): ");
-                newStudent.Name = Console.ReadLine();
+                newStudent.name = Console.ReadLine();
 
-                Console.Write("Student Grade (int): ");
-                newStudent.Grade = int.Parse(Console.ReadLine());
+                Console.Write("Student gradeField1 directly (int): ");
+                newStudent.gradeField1 = int.Parse(Console.ReadLine());
 
-                Console.Write("Student Birthday (yyyy-mm-dd): ");
-                newStudent.Birthday = Console.ReadLine();
+                Console.Write("Student gradeField2 with method (int): ");
+                newStudent.setGrade2(int.Parse(Console.ReadLine()));
+
+                Console.Write("Student gradeProperty (int): ");
+                newStudent.gradeProperty = int.Parse(Console.ReadLine());
 
                 students.Add(newStudent);
 
@@ -37,15 +40,29 @@ namespace _04_list_of_objects_StudentManager
 
             foreach (var student in students)
             {
-                Console.WriteLine($"Name: {student.Name}, Grade: {student.Grade}, Birthday: {student.Birthday}");
+                Console.WriteLine($"Name: {student.name}, gradeField1: {student.gradeField1}, gradeField2: {student.gradeField2}, gradeProperty: {student.gradeProperty}");
             }
         }
     }
 
     class Student
     {
-        public string Name;
-        public int Grade;
-        public string Birthday;
+        public string name;  // a public field
+        public int gradeField1; //a public field
+        public int gradeField2; // a public field
+        private int _gradeField; // a private field
+
+        public void setGrade2(int number)
+        {
+            gradeField2 = number;
+        }
+
+        public int gradeProperty
+        {
+            get { Console.WriteLine("Inside getter"); return _gradeField; }
+            set { Console.WriteLine("Inside setter"); _gradeField = value; }
+        }
+
+        
     }
 }
