@@ -4,3 +4,4 @@ C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\08-fields-vs-properties-
 C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.csproj.CoreCompileInputs.cache
 C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.exe
 C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.pdb
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.csprojAssemblyReference.cache

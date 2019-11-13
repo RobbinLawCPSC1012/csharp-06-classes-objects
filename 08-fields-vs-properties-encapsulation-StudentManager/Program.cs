@@ -21,10 +21,10 @@ namespace _08_fields_vs_properties_encapsulation_StudentManager
                 Console.Write("Student Name (string): ");
                 newStudent.name = Console.ReadLine();
 
-                Console.Write("Student gradeField1 directly (int): ");
+                Console.Write("Student gradeField directly (int): ");
                 newStudent.gradeField = int.Parse(Console.ReadLine());
 
-                Console.Write("Student gradeField2 with method (int): ");
+                Console.Write("Student gradeField1 with method (int): ");
                 newStudent.setGrade1(int.Parse(Console.ReadLine()));
 
                 Console.Write("Student gradeProperty (int): ");
