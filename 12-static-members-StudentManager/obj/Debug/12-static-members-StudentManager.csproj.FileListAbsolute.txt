@@ -1,0 +1,7 @@
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\12-static-members-StudentManager\bin\Debug\12-static-members-StudentManager.exe.config
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\12-static-members-StudentManager\bin\Debug\12-static-members-StudentManager.exe
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\12-static-members-StudentManager\bin\Debug\12-static-members-StudentManager.pdb
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\12-static-members-StudentManager\obj\Debug\12-static-members-StudentManager.csprojAssemblyReference.cache
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\12-static-members-StudentManager\obj\Debug\12-static-members-StudentManager.csproj.CoreCompileInputs.cache
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\12-static-members-StudentManager\obj\Debug\12-static-members-StudentManager.exe
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\12-static-members-StudentManager\obj\Debug\12-static-members-StudentManager.pdb

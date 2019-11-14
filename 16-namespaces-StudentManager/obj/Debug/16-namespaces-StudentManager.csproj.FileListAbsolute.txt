@@ -1,0 +1,7 @@
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\16-namespaces-StudentManager\bin\Debug\16-namespaces-StudentManager.exe.config
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\16-namespaces-StudentManager\bin\Debug\16-namespaces-StudentManager.exe
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\16-namespaces-StudentManager\bin\Debug\16-namespaces-StudentManager.pdb
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\16-namespaces-StudentManager\obj\Debug\16-namespaces-StudentManager.csproj.CoreCompileInputs.cache
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\16-namespaces-StudentManager\obj\Debug\16-namespaces-StudentManager.exe
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\16-namespaces-StudentManager\obj\Debug\16-namespaces-StudentManager.pdb
+C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\16-namespaces-StudentManager\obj\Debug\16-namespaces-StudentManager.csprojAssemblyReference.cache
