@@ -17,17 +17,11 @@ namespace _12_properties_only_StudentManager
             {
                 var newStudent = new Student();
 
-                Console.Write("Student Name (string): ");
-                newStudent.name = Console.ReadLine();
-
-                Console.Write("Student grade (int): ");
-                newStudent.grade = int.Parse(Console.ReadLine());
-
+                newStudent.name = getString("Student Name (string): ");   
+                newStudent.grade = getInt("Student grade (int): ");
                 students.Add(newStudent);
-
-                Console.WriteLine("Add another? y/n");
-
-                if (Console.ReadLine() == "n")
+                char addNewStudent = getChar("Add another? y/n: ");
+                if (addNewStudent == 'n')
                     adding = false;
             }
 
@@ -35,6 +29,59 @@ namespace _12_properties_only_StudentManager
             {
                 Console.WriteLine($"Name: {student.name}, grade: {student.grade}");
             }
+        }
+
+
+        static string getString(string msg)
+        {
+            try
+            {
+                Console.Write(msg);
+                string str = Console.ReadLine();
+                return str;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return getString(msg);
+            }
+
+        }
+
+        static int getInt(string msg)
+        {
+            try
+            {
+                Console.Write(msg);
+                int num = int.Parse(Console.ReadLine());
+                if (num < 0)
+                    throw new Exception("Invalid Input: Must be positive number");
+                return num;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return getInt(msg);
+            }
+
+        }
+
+        static char getChar(string msg)
+        {
+            try
+            {
+                Console.Write(msg);
+                char myChar = char.Parse(Console.ReadLine());
+                if (myChar != 'y' && myChar != 'n')
+                    throw new Exception("Invalid Input: Must be y or n");
+                return myChar;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return getChar(msg);
+            }
+
         }
     }
 

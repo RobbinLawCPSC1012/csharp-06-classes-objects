@@ -5,3 +5,10 @@ C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\08-fields-vs-properties-
 C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.exe
 C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.pdb
 C:\Users\robbinl\Source\Repos\csharp-06-classes-objects\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.csprojAssemblyReference.cache
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\08-fields-vs-properties-encapsulation-StudentManager\bin\Debug\08-fields-vs-properties-encapsulation-StudentManager.exe.config
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\08-fields-vs-properties-encapsulation-StudentManager\bin\Debug\08-fields-vs-properties-encapsulation-StudentManager.exe
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\08-fields-vs-properties-encapsulation-StudentManager\bin\Debug\08-fields-vs-properties-encapsulation-StudentManager.pdb
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.csprojAssemblyReference.cache
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.csproj.CoreCompileInputs.cache
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.exe
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\08-fields-vs-properties-encapsulation-StudentManager\obj\Debug\08-fields-vs-properties-encapsulation-StudentManager.pdb
