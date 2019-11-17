@@ -89,12 +89,14 @@ namespace _12_properties_only_StudentManager
     {
         private string _name;  // a private field
         private int _grade; // a private field
-        public string name
+
+        public string name // a public property to access the private field associated
         {
             get { Console.WriteLine("Inside name getter"); return _name; }
             set { Console.WriteLine("Inside name setter"); _name = value; }
         }
-        public int grade
+
+        public int grade  // a public property to access the private field associated
         {
             get { Console.WriteLine("Inside grade getter"); return _grade; }
             set { Console.WriteLine("Inside grade setter"); _grade = value; }

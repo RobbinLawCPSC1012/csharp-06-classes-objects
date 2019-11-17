@@ -86,7 +86,7 @@ namespace _04_list_of_objects_StudentManager
 
     class Student
     {
-        public string name;
-        public int grade;
+        public string name; // a public field
+        public int grade; // a public field
     }
 }

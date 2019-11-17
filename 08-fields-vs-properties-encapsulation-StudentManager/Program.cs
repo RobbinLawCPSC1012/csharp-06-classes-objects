@@ -13,7 +13,6 @@ namespace _08_fields_vs_properties_encapsulation_StudentManager
             var students = new List<Student>();
 
             var adding = true;
-
             while (adding)
             {
                 var newStudent = new Student();
@@ -91,7 +90,7 @@ namespace _08_fields_vs_properties_encapsulation_StudentManager
     {
         public string name;  // a public field
         public int gradeField; //a public field
-        private int _gradeField1; // a public field
+        private int _gradeField1; // a private field
         private int _gradeField2; // a private field
 
         public int getGrade1()
