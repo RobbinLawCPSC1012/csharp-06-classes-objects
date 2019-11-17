@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _12_static_members_StudentManager
+namespace _12_properties_only_StudentManager
 {
     class Program
     {
@@ -13,7 +13,6 @@ namespace _12_static_members_StudentManager
             var students = new List<Student>();
 
             var adding = true;
-
             while (adding)
             {
                 var newStudent = new Student();
@@ -25,8 +24,6 @@ namespace _12_static_members_StudentManager
                 newStudent.grade = int.Parse(Console.ReadLine());
 
                 students.Add(newStudent);
-                Student.count++;
-                Console.WriteLine($"The static Student.count is: {Student.count}");
 
                 Console.WriteLine("Add another? y/n");
 
@@ -43,8 +40,19 @@ namespace _12_static_members_StudentManager
 
     class Student
     {
-        static public int count = 0;
-        public string name;
-        public int grade;
+        private string _name;  // a private field
+        private int _grade; // a private field
+        public string name
+        {
+            get { Console.WriteLine("Inside name getter"); return _name; }
+            set { Console.WriteLine("Inside name setter"); _name = value; }
+        }
+        public int grade
+        {
+            get { Console.WriteLine("Inside grade getter"); return _grade; }
+            set { Console.WriteLine("Inside grade setter"); _grade = value; }
+        }
+
+
     }
 }

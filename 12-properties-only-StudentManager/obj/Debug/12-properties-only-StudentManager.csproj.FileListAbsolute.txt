@@ -1,0 +1,7 @@
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\12-properties-only-StudentManager\bin\Debug\12-properties-only-StudentManager.exe.config
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\12-properties-only-StudentManager\bin\Debug\12-properties-only-StudentManager.exe
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\12-properties-only-StudentManager\bin\Debug\12-properties-only-StudentManager.pdb
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\12-properties-only-StudentManager\obj\Debug\12-properties-only-StudentManager.csprojAssemblyReference.cache
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\12-properties-only-StudentManager\obj\Debug\12-properties-only-StudentManager.csproj.CoreCompileInputs.cache
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\12-properties-only-StudentManager\obj\Debug\12-properties-only-StudentManager.exe
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects2\12-properties-only-StudentManager\obj\Debug\12-properties-only-StudentManager.pdb
