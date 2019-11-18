@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace _04_list_of_objects_StudentManager
 {
+    class Student
+    {
+        public string name; // a public field
+        public int grade; // a public field
+    }
+
     class Program
     {
-        static void Main(string[] args)
+
+        static void withListOfObjects()
         {
+            Console.WriteLine("*** Using one list of objects ***");
             var students = new List<Student>();
 
             var adding = true;
@@ -30,6 +38,38 @@ namespace _04_list_of_objects_StudentManager
                 Console.WriteLine($"Name: {student.name}, grade: {student.grade}");
             }
         }
+
+        static void Main(string[] args)
+        {
+            withLists();            
+            withListOfObjects();
+        }
+
+        static void withLists()
+        {
+            Console.WriteLine("*** Using lists ***");
+            List<string> studentNames = new List<string>();
+            List<int> studentGrades = new List<int>();
+
+            var adding = true;
+            while (adding)
+            {
+                var newStudent = new Student();
+
+                studentNames.Add(getString("Student Name (string): "));   
+                studentGrades.Add(getInt("Student grade (int): "));
+                char addNewStudent = getChar("Add another? y/n: ");
+                if (addNewStudent == 'n')
+                    adding = false;
+            }
+
+            for (int i = 0; i < studentNames.Count; i++)
+            {
+                Console.WriteLine($"Name: {studentNames[i]}, Grade: {studentGrades[i]}");
+            }
+        }
+
+        
 
         static string getString(string msg)
         {
@@ -82,11 +122,5 @@ namespace _04_list_of_objects_StudentManager
             }
 
         }
-    }
-
-    class Student
-    {
-        public string name; // a public field
-        public int grade; // a public field
     }
 }
