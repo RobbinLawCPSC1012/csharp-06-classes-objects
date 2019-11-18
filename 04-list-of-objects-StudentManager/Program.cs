@@ -33,6 +33,11 @@ namespace _04_list_of_objects_StudentManager
                     adding = false;
             }
 
+            for( int myStudent = 0; myStudent < students.Count; myStudent++ )
+            {
+                Console.WriteLine($"Name: {students[myStudent].name}, grade: {students[myStudent].grade}");
+            }
+
             foreach (var student in students)
             {
                 Console.WriteLine($"Name: {student.name}, grade: {student.grade}");
@@ -54,8 +59,6 @@ namespace _04_list_of_objects_StudentManager
             var adding = true;
             while (adding)
             {
-                var newStudent = new Student();
-
                 studentNames.Add(getString("Student Name (string): "));   
                 studentGrades.Add(getInt("Student grade (int): "));
                 char addNewStudent = getChar("Add another? y/n: ");
