@@ -69,8 +69,6 @@ namespace _04_list_of_objects_StudentManager
             }
         }
 
-        
-
         static string getString(string msg)
         {
             try
