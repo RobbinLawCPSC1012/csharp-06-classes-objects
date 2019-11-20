@@ -6,6 +6,30 @@ using System.Threading.Tasks;
 
 namespace _08_fields_vs_properties_encapsulation_StudentManager
 {
+    class Student
+    {
+        public string name;  // a public field
+        public int gradeField; //a public field
+        private int _gradeField1; // a private field
+        private int _gradeField2; // a private field
+
+        public int getGrade1()
+        {
+            Console.WriteLine("Inside getGrade1");
+            return _gradeField1;
+        }
+        public void setGrade1(int number)
+        {
+            Console.WriteLine("Inside setGrade1");
+            _gradeField1 = number;
+        }
+        public int gradeProperty
+        {
+            get { Console.WriteLine("Inside gradeProperty getter"); return _gradeField2; }
+            set { Console.WriteLine("Inside gradeProperty setter"); _gradeField2 = value; }
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -84,31 +108,5 @@ namespace _08_fields_vs_properties_encapsulation_StudentManager
             }
 
         }
-    }
-
-    class Student
-    {
-        public string name;  // a public field
-        public int gradeField; //a public field
-        private int _gradeField1; // a private field
-        private int _gradeField2; // a private field
-
-        public int getGrade1()
-        {
-            Console.WriteLine("Inside getGrade1");
-            return _gradeField1;
-        }
-        public void setGrade1(int number)
-        {
-            Console.WriteLine("Inside setGrade1");
-            _gradeField1 = number;
-        }
-        public int gradeProperty
-        {
-            get { Console.WriteLine("Inside gradeProperty getter"); return _gradeField2; }
-            set { Console.WriteLine("Inside gradeProperty setter"); _gradeField2 = value; }
-        }
-
-
-    }
+    }   
 }

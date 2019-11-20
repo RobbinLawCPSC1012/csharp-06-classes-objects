@@ -14,7 +14,6 @@ namespace _04_list_of_objects_StudentManager
 
     class Program
     {
-
         static void withListOfObjects()
         {
             Console.WriteLine("*** Using one list of objects ***");
