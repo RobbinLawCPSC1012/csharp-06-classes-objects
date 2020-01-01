@@ -1,0 +1,7 @@
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects3\30-DiceRollHigherGame\bin\Debug\30-DiceRollHigherGame.exe.config
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects3\30-DiceRollHigherGame\bin\Debug\30-DiceRollHigherGame.exe
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects3\30-DiceRollHigherGame\bin\Debug\30-DiceRollHigherGame.pdb
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects3\30-DiceRollHigherGame\obj\Debug\30-DiceRollHigherGame.csprojAssemblyReference.cache
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects3\30-DiceRollHigherGame\obj\Debug\30-DiceRollHigherGame.csproj.CoreCompileInputs.cache
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects3\30-DiceRollHigherGame\obj\Debug\30-DiceRollHigherGame.exe
+C:\Users\robbi\Source\Repos\csharp-06-classes-objects3\30-DiceRollHigherGame\obj\Debug\30-DiceRollHigherGame.pdb
