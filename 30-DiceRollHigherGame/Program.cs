@@ -23,11 +23,12 @@ namespace _30_DiceRollHigherGame
             do
             {
                 Console.WriteLine("Game Menu: \n");
-                Console.WriteLine("A) Both Players Play a Round by Rolling their Dice");
-                Console.WriteLine("B) Display all Game Rounds Results");
-                Console.WriteLine("X) Exit");
+                Console.WriteLine("A) Both Players Play a Round by Rolling their Dice (Two Die's)");
+                Console.WriteLine("B) Display Results of all Game Rounds");
+                Console.WriteLine("X) Exit the Game");
                 Console.Write("Enter menu choice: ");
                 menuChoice = Console.ReadLine();
+                Console.WriteLine("\n");
                 switch (menuChoice.ToUpper())
                 {
                     case "A":
@@ -45,7 +46,7 @@ namespace _30_DiceRollHigherGame
                         }
                     case "B":
                         {
-                            DisplayGame(gameRounds);
+                            DisplayGameResults(gameRounds);
                             break;
                         }
                     case "X":
@@ -66,7 +67,7 @@ namespace _30_DiceRollHigherGame
             Console.WriteLine(string.Format("Results: {0} rolled {1}, {2} rolled {3}. Winner: {4}",
                 _Player1.PlayerName, round.Player1Value, _Player2.PlayerName, round.Player2Value, round.Winner));
         }
-        public static void DisplayGame(List<Round> gameRounds)
+        public static void DisplayGameResults(List<Round> gameRounds)
         {
             Console.WriteLine("This is the complete set of Rounds for this game:\n");
             //foreach() will traverse a collection from start to end
