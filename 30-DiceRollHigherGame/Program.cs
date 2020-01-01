@@ -23,7 +23,7 @@ namespace _30_DiceRollHigherGame
             do
             {
                 Console.WriteLine("Game Menu: \n");
-                Console.WriteLine("A) Both Players Play a Round by Rolling their Dice (Two Die's)");
+                Console.WriteLine("A) Both Players Play a Round by Rolling their Dice (Two Die)");
                 Console.WriteLine("B) Display Results of all Game Rounds");
                 Console.WriteLine("X) Exit the Game");
                 Console.Write("Enter menu choice: ");
@@ -34,7 +34,7 @@ namespace _30_DiceRollHigherGame
                     case "A":
                         {
                             //to record the round, one needs to generate a
-                            //new instance of Rounds
+                            //new instance of Round
                             Round round = new Round(_Player1, _Player2);
                             //display the results of the current turn
                             DisplayRoundResults(round);
@@ -62,11 +62,13 @@ namespace _30_DiceRollHigherGame
                 }
             } while (menuChoice.ToUpper() != "X");
         }//eom
+
         public static void DisplayRoundResults(Round round)
         {
             Console.WriteLine(string.Format("Results: {0} rolled {1}, {2} rolled {3}. Winner: {4}",
                 _Player1.PlayerName, round.Player1Value, _Player2.PlayerName, round.Player2Value, round.Winner));
         }
+
         public static void DisplayGameResults(List<Round> gameRounds)
         {
             Console.WriteLine("This is the complete set of Rounds for this game:\n");
