@@ -37,6 +37,7 @@ namespace _30_DiceRollHigherGame
                             Round round = new Round(_Player1, _Player2);
                             //display the results of the current turn
                             DisplayRoundResults(round);
+                            Console.WriteLine("\n");
                             //if you wish an item to be in a collection you must
                             //add that item to the collection
                             gameRounds.Add(round);
