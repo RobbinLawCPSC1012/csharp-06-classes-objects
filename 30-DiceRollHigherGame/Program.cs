@@ -62,7 +62,7 @@ namespace _30_DiceRollHigherGame
         }//eom
         public static void DisplayRoundResults(Round round)
         {
-            Console.WriteLine(string.Format("Results: {0} rolled: {1} {2} rolled: {3} Winner: {4}",
+            Console.WriteLine(string.Format("Results: {0} rolled {1}, {2} rolled {3}. Winner: {4}",
                 _Player1.PlayerName, round.Player1Value, _Player2.PlayerName, round.Player2Value, round.Winner));
         }
         public static void DisplayGame(List<Round> gameRounds)
