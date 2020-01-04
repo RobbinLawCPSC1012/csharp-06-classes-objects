@@ -23,11 +23,12 @@ namespace _08_fields_vs_properties_encapsulation_StudentManager
             Console.WriteLine("Inside setGrade1");
             _gradeField1 = number;
         }
-        public int gradeProperty
+        public int GradePropertyFullyImplemented
         {
-            get { Console.WriteLine("Inside gradeProperty getter"); return _gradeField2; }
-            set { Console.WriteLine("Inside gradeProperty setter"); _gradeField2 = value; }
+            get { Console.WriteLine("Inside GradePropertyFullyImplemented getter"); return _gradeField2; }
+            set { Console.WriteLine("Inside GradePropertyFullyImplemented setter"); _gradeField2 = value; }
         }
+        public int GradePropertyAutoImplemented { get; set; }
     }
 
     class Program
@@ -44,16 +45,20 @@ namespace _08_fields_vs_properties_encapsulation_StudentManager
                 newStudent.name = getString("Student Name (string): ");   
                 newStudent.gradeField = getInt("Student grade (int): ");      
                 newStudent.setGrade1(getInt("Student gradeField1 with method (int): ")); 
-                newStudent.gradeProperty = getInt("Student gradeProperty (int): ");
+                newStudent.GradePropertyFullyImplemented = getInt("Student GradePropertyFullyImplemented (int): ");
+                newStudent.GradePropertyAutoImplemented = getInt("Student GradePropertyAutoImplemented (int): ");
                 students.Add(newStudent);
                 char addNewStudent = getChar("Add another? y/n: ");
                 if (addNewStudent == 'n')
                     adding = false;
             }
-
+            Console.WriteLine($"\nPrinting Each Students Information\n");
             foreach (var student in students)
             {
-                Console.WriteLine($"Name: {student.name}, gradeField1: {student.gradeField}, gradeField2: {student.getGrade1()}, gradeProperty: {student.gradeProperty}");
+                Console.WriteLine($"Name: {student.name}, gradeField1: {student.gradeField}, gradeField2: {student.getGrade1()}");
+                Console.WriteLine($"GradePropertyFullyImplemented: {student.GradePropertyFullyImplemented}");
+                Console.WriteLine($"GradePropertyAutoImplemented: {student.GradePropertyAutoImplemented}");
+                Console.WriteLine($"");
             }
         }
 
