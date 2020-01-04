@@ -11,7 +11,6 @@ namespace _08_fields_vs_properties_encapsulation_StudentManager
         public string name;  // a public field
         public int gradeField; //a public field
         private int _gradeField1; // a private field
-        private int _gradeField2; // a private field
 
         public int getGrade1()
         {
@@ -23,12 +22,15 @@ namespace _08_fields_vs_properties_encapsulation_StudentManager
             Console.WriteLine("Inside setGrade1");
             _gradeField1 = number;
         }
-        public int GradePropertyFullyImplemented
+
+        private int _gradeField2; // a private field
+        public int GradePropertyFullyImplemented // a public fully implemented property: use when validation is necessary
         {
             get { Console.WriteLine("Inside GradePropertyFullyImplemented getter"); return _gradeField2; }
             set { Console.WriteLine("Inside GradePropertyFullyImplemented setter"); _gradeField2 = value; }
         }
-        public int GradePropertyAutoImplemented { get; set; }
+        
+        public int GradePropertyAutoImplemented { get; set; }  // a public auto implemented property
     }
 
     class Program
