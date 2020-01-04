@@ -16,9 +16,9 @@ namespace _12_properties_only_StudentManager
             while (adding)
             {
                 var newStudent = new Student();
-
-                newStudent.name = getString("Student Name (string): ");   
-                newStudent.grade = getInt("Student grade (int): ");
+                Console.WriteLine($"newStudent Instance count is: {Student.InstanceCounter}");
+                newStudent.Name = getString($"What is the new students name? ");
+                newStudent.Grade = getInt($"What is the Grade (int) for {newStudent.Name}: ");
                 students.Add(newStudent);
                 char addNewStudent = getChar("Add another? y/n: ");
                 if (addNewStudent == 'n')
@@ -27,7 +27,7 @@ namespace _12_properties_only_StudentManager
 
             foreach (var student in students)
             {
-                Console.WriteLine($"Name: {student.name}, grade: {student.grade}");
+                Console.WriteLine($"Name: {student.Name}, grade: {student.Grade}");
             }
         }
 
@@ -87,21 +87,13 @@ namespace _12_properties_only_StudentManager
 
     class Student
     {
-        private string _name;  // a private field
-        private int _grade; // a private field
+        public string Name { get; set; } // a public instance (non-static) auto implemented property with both public get and set
+        public int Grade { get; set; } // a public instance (non-static) auto implemented property with both public get and set
+        public static int InstanceCounter { get; private set; } // public class (static) property with public get but private set
 
-        public string name // a public property to access the private field associated
+        public Student() // constructor method
         {
-            get { Console.WriteLine("Inside name getter"); return _name; }
-            set { Console.WriteLine("Inside name setter"); _name = value; }
+            InstanceCounter++;
         }
-
-        public int grade  // a public property to access the private field associated
-        {
-            get { Console.WriteLine("Inside grade getter"); return _grade; }
-            set { Console.WriteLine("Inside grade setter"); _grade = value; }
-        }
-
-
     }
 }
